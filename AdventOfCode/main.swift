@@ -8,5 +8,8 @@
 
 import Foundation
 
-print("Hello, World!")
+let config = CalendarConfig(outputResults: true, printTiming: true)
 
+let calendar2017 = AdventCalendar2017()
+calendar2017.config = config
+calendar2017.run()
