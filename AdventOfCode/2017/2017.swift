@@ -14,6 +14,7 @@ class AdventCalendar2017 : AdventCalendar {
         
         days.append(Day1_2017())
         days.append(Day2_2017())
+        days.append(Day3_2017())
         
         super.init(year: 2017, days: days)
     }

@@ -12,6 +12,7 @@
 		43447FE721B1C12300337D74 /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43447FE621B1C12300337D74 /* Calendar.swift */; };
 		43447FEA21B1C64E00337D74 /* Day1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43447FE921B1C64E00337D74 /* Day1.swift */; };
 		43447FEC21B1C93700337D74 /* Day2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43447FEB21B1C93700337D74 /* Day2.swift */; };
+		43447FF021B1D68B00337D74 /* Day3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43447FEF21B1D68B00337D74 /* Day3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +34,7 @@
 		43447FE621B1C12300337D74 /* Calendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calendar.swift; sourceTree = "<group>"; };
 		43447FE921B1C64E00337D74 /* Day1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day1.swift; sourceTree = "<group>"; };
 		43447FEB21B1C93700337D74 /* Day2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day2.swift; sourceTree = "<group>"; };
+		43447FEF21B1D68B00337D74 /* Day3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				43447FE421B1B8A700337D74 /* 2017.swift */,
 				43447FE921B1C64E00337D74 /* Day1.swift */,
 				43447FEB21B1C93700337D74 /* Day2.swift */,
+				43447FEF21B1D68B00337D74 /* Day3.swift */,
 			);
 			path = 2017;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 				43447FEC21B1C93700337D74 /* Day2.swift in Sources */,
 				43447FDE21B1B85900337D74 /* main.swift in Sources */,
 				43447FE721B1C12300337D74 /* Calendar.swift in Sources */,
+				43447FF021B1D68B00337D74 /* Day3.swift in Sources */,
 				43447FE521B1B8A700337D74 /* 2017.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
