@@ -13,6 +13,7 @@ class AdventCalendar2018 : AdventCalendar {
         var days : [Day] = []
         
         days.append(Day1_2018())
+        days.append(Day2_2018())
         
         super.init(year: 2018, days: days)
     }
