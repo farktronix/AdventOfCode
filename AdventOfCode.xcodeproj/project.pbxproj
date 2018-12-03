@@ -17,6 +17,8 @@
 		43447FF521B24A1000337D74 /* 2018.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43447FF421B24A1000337D74 /* 2018.swift */; };
 		43447FF721B24A2400337D74 /* Day1_2018.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43447FF621B24A2400337D74 /* Day1_2018.swift */; };
 		43447FF921B456CD00337D74 /* Day2_2018.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43447FF821B456CD00337D74 /* Day2_2018.swift */; };
+		43447FFB21B4F58100337D74 /* Day3_2018.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43447FFA21B4F58100337D74 /* Day3_2018.swift */; };
+		43A746B721B4FC0B004E51EA /* Day3_2018_Input.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A746B621B4FC0B004E51EA /* Day3_2018_Input.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +45,8 @@
 		43447FF421B24A1000337D74 /* 2018.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2018.swift; sourceTree = "<group>"; };
 		43447FF621B24A2400337D74 /* Day1_2018.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day1_2018.swift; sourceTree = "<group>"; };
 		43447FF821B456CD00337D74 /* Day2_2018.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day2_2018.swift; sourceTree = "<group>"; };
+		43447FFA21B4F58100337D74 /* Day3_2018.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day3_2018.swift; sourceTree = "<group>"; };
+		43A746B621B4FC0B004E51EA /* Day3_2018_Input.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day3_2018_Input.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 				43447FF421B24A1000337D74 /* 2018.swift */,
 				43447FF621B24A2400337D74 /* Day1_2018.swift */,
 				43447FF821B456CD00337D74 /* Day2_2018.swift */,
+				43447FFA21B4F58100337D74 /* Day3_2018.swift */,
+				43A746B621B4FC0B004E51EA /* Day3_2018_Input.swift */,
 			);
 			path = 2018;
 			sourceTree = "<group>";
@@ -169,8 +175,10 @@
 				43447FDE21B1B85900337D74 /* main.swift in Sources */,
 				43447FE721B1C12300337D74 /* Calendar.swift in Sources */,
 				43447FF221B20F5D00337D74 /* Day4_2017.swift in Sources */,
+				43447FFB21B4F58100337D74 /* Day3_2018.swift in Sources */,
 				43447FF021B1D68B00337D74 /* Day3_2017.swift in Sources */,
 				43447FF721B24A2400337D74 /* Day1_2018.swift in Sources */,
+				43A746B721B4FC0B004E51EA /* Day3_2018_Input.swift in Sources */,
 				43447FE521B1B8A700337D74 /* 2017.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
