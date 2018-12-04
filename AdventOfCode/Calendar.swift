@@ -27,8 +27,15 @@ class AdventCalendar {
     }
     
     public func run() {
+        let startTime = Date()
+        
         for day in days {
             day.run(withConfig: self.config)
+        }
+        
+        if config.printTiming == true {
+            let runtime = Date().timeIntervalSince(startTime) * 1000
+            print("\n------ \(year) finished running in \(runtime)ms")
         }
     }
 }
