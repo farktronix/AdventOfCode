@@ -20,6 +20,7 @@
 		43447FFB21B4F58100337D74 /* Day3_2018.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43447FFA21B4F58100337D74 /* Day3_2018.swift */; };
 		43A746B721B4FC0B004E51EA /* Day3_2018_Input.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A746B621B4FC0B004E51EA /* Day3_2018_Input.swift */; };
 		43A746B921B6701C004E51EA /* Day4_2018.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A746B821B6701C004E51EA /* Day4_2018.swift */; };
+		43A746BB21B7A7E5004E51EA /* Day5_2018.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A746BA21B7A7E5004E51EA /* Day5_2018.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -49,6 +50,7 @@
 		43447FFA21B4F58100337D74 /* Day3_2018.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day3_2018.swift; sourceTree = "<group>"; };
 		43A746B621B4FC0B004E51EA /* Day3_2018_Input.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day3_2018_Input.swift; sourceTree = "<group>"; };
 		43A746B821B6701C004E51EA /* Day4_2018.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day4_2018.swift; sourceTree = "<group>"; };
+		43A746BA21B7A7E5004E51EA /* Day5_2018.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day5_2018.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				43447FFA21B4F58100337D74 /* Day3_2018.swift */,
 				43A746B621B4FC0B004E51EA /* Day3_2018_Input.swift */,
 				43A746B821B6701C004E51EA /* Day4_2018.swift */,
+				43A746BA21B7A7E5004E51EA /* Day5_2018.swift */,
 			);
 			path = 2018;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 				43447FDE21B1B85900337D74 /* main.swift in Sources */,
 				43447FE721B1C12300337D74 /* Calendar.swift in Sources */,
 				43447FF221B20F5D00337D74 /* Day4_2017.swift in Sources */,
+				43A746BB21B7A7E5004E51EA /* Day5_2018.swift in Sources */,
 				43A746B921B6701C004E51EA /* Day4_2018.swift in Sources */,
 				43447FFB21B4F58100337D74 /* Day3_2018.swift in Sources */,
 				43447FF021B1D68B00337D74 /* Day3_2017.swift in Sources */,
