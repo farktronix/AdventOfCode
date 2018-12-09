@@ -89,18 +89,10 @@ class Polymer : NSObject, NSCopying {
         }
         return copy
     }
-}
-
-class Day5_2018 : Day {
-    public init() {
-        super.init(dayNumber: 5)
-        
-        parts.append(DayPart.init(withBlock: self.part1))
-        parts.append(DayPart.init(withBlock: self.part2))
-    }
     
-    func reducePolymer(_ polymer : Polymer) -> Polymer {
-        var returnValue = polymer
+    func reduce() -> Polymer {
+        let polymer : Polymer = self.copy() as! Polymer
+        var returnValue : Polymer = polymer
         var curPolymer : Polymer? = polymer
         var didReact = false
         while curPolymer != nil {
@@ -124,10 +116,19 @@ class Day5_2018 : Day {
         }
         return returnValue
     }
+}
+
+class Day5_2018 : Day {
+    public init() {
+        super.init(dayNumber: 5)
+        
+        parts.append(DayPart.init(withBlock: self.part1))
+        parts.append(DayPart.init(withBlock: self.part2))
+    }
 
     func part1() -> String? {
         var polymer = Polymer(fromInput: day5_input)
-        polymer = reducePolymer(polymer)
+        polymer = polymer.reduce()
         return "\(polymer.count())"
     }
     
@@ -138,7 +139,7 @@ class Day5_2018 : Day {
             let charactersToRemove: [Character] = [char, uppercaseChar[uppercaseChar.startIndex]]
             let input = String(day5_input.filter { !charactersToRemove.contains($0) })
             var polymer = Polymer(fromInput: input)
-            polymer = reducePolymer(polymer)
+            polymer = polymer.reduce()
             charCount[char] = polymer.count()
         }
         
